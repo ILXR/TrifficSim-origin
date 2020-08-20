@@ -1,2 +1,13 @@
-# TrifficSim-origin
-A traffic simulation software, Includes source code and executable files
+# 项目介绍
+
+一个移位左转/普通十字路口的交通仿真演示软件，含固定配时策略以及自适应配时策略  
+自适应配时策略的实现方式见根目录的Word文档  _移位左转配时策略研究-项目开发报告（含测试报告、可行性分析）.docx_  
+
+> 1. 使用Qt开发，运行环境为Win10 32/64位
+> 2. 项目为VS2017工程  
+
+> - TrafficSim 项目文件夹
+> - TrafficSim_application 打包好的软件，可直接运行
+> - 使用手册、说明文档见根目录
+
+本项目是本人大学期间参与的竞赛项目，在老师指导和队友合作下最终完成，引用相关内容时请注明出处。  
