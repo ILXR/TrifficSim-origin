@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TrafficSimClass</class>
+ <widget class="QMainWindow" name="TrafficSimClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1068</width>
+    <height>813</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>TrafficSim交通仿真软件</string>
+  </property>
+  <widget class="QWidget" name="centralWidget"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1068</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>30</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>16777215</width>
+     <height>30</height>
+    </size>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="minimumSize">
+     <size>
+      <width>0</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>16777215</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="title">
+     <string>路口类型</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="scence_Ordinary"/>
+    <addaction name="separator"/>
+    <addaction name="scence_CFI"/>
+   </widget>
+   <widget class="QMenu" name="menuSiginal_Contral">
+    <property name="title">
+     <string>配时方案</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="signal_Fixed"/>
+    <addaction name="separator"/>
+    <addaction name="signal_Adaptive"/>
+   </widget>
+   <widget class="QMenu" name="menuSimunilation">
+    <property name="title">
+     <string>仿真设置</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="simulation_Configuration"/>
+   </widget>
+   <widget class="QMenu" name="menuVehicles">
+    <property name="title">
+     <string>车辆输入</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="vehicles_Ordinary"/>
+    <addaction name="separator"/>
+    <addaction name="vehicles_CFI"/>
+   </widget>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>文件</string>
+    </property>
+    <addaction name="OpenFile"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menuSiginal_Contral"/>
+   <addaction name="menuVehicles"/>
+   <addaction name="menuSimunilation"/>
+   <addaction name="menuFile"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <property name="iconSize">
+    <size>
+     <width>20</width>
+     <height>20</height>
+    </size>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="action_Run"/>
+   <addaction name="separator"/>
+   <addaction name="action_Stop"/>
+   <addaction name="separator"/>
+   <addaction name="action_SingleStep"/>
+   <addaction name="separator"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="scence_Ordinary">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>普通路口</string>
+   </property>
+  </action>
+  <action name="scence_CFI">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>移位左转</string>
+   </property>
+  </action>
+  <action name="signal_Fixed">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>固定配时</string>
+   </property>
+  </action>
+  <action name="signal_Adaptive">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>自适应配时</string>
+   </property>
+  </action>
+  <action name="simulation_Configuration">
+   <property name="text">
+    <string>参数设置</string>
+   </property>
+  </action>
+  <action name="action_Run">
+   <property name="icon">
+    <iconset resource="TrafficSim.qrc">
+     <normaloff>:/TrafficSim/images/start.png</normaloff>:/TrafficSim/images/start.png</iconset>
+   </property>
+   <property name="text">
+    <string>Run</string>
+   </property>
+   <property name="toolTip">
+    <string>Run Simulation</string>
+   </property>
+  </action>
+  <action name="action_Stop">
+   <property name="icon">
+    <iconset resource="TrafficSim.qrc">
+     <normaloff>:/TrafficSim/images/stop.png</normaloff>:/TrafficSim/images/stop.png</iconset>
+   </property>
+   <property name="text">
+    <string>Stop</string>
+   </property>
+   <property name="toolTip">
+    <string>Stop simulation</string>
+   </property>
+  </action>
+  <action name="action_SingleStep">
+   <property name="icon">
+    <iconset resource="TrafficSim.qrc">
+     <normaloff>:/TrafficSim/images/single.png</normaloff>:/TrafficSim/images/single.png</iconset>
+   </property>
+   <property name="text">
+    <string>SingleStep</string>
+   </property>
+   <property name="toolTip">
+    <string>Run simulation with single step</string>
+   </property>
+  </action>
+  <action name="vehicles_Ordinary">
+   <property name="text">
+    <string>普通路口</string>
+   </property>
+  </action>
+  <action name="vehicles_CFI">
+   <property name="text">
+    <string>移位左转</string>
+   </property>
+  </action>
+  <action name="OpenFile">
+   <property name="text">
+    <string>打开输入文件</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="TrafficSim.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>signal_Fixed</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>signal_Adaptive</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>signal_Adaptive</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>signal_Fixed</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>scence_Ordinary</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>scence_CFI</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>scence_CFI</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>scence_Ordinary</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

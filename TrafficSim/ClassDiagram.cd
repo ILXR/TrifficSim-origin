@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Left">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AADIAAAqAQRQAAUwgIJAKAEQAAIQAQQACIQAAAIkAAA=</HashCode>
+      <FileName>Left.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ordinary" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAgqAABQIAAwgAYBIAEAAAQQgUYEhMQAACMgAAI=</HashCode>
+      <FileName>Ordinary.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="signal" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAACAAAAAAAIIAIQAAAgAIAAAGAAAAAAAgAAA=</HashCode>
+      <FileName>signal.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vehicle" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAEAADAAALAACCUAAIGJABEAEAAAQUEABgAAAAAgAA=</HashCode>
+      <FileName>vehicle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Road_Line" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAACAAAAAAAAAAAAAAAEAAACAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Com_use.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TrafficSim" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAABgAARAEABARBAAECRAKEwAQAAEAAAEAgAAMAI=</HashCode>
+      <FileName>TrafficSim.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Simulation_Configure" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEIAAAAAAACAAAAAAQAAAAAAAAgAAEAA=</HashCode>
+      <FileName>Simulation_Configure.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="simulation_con">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hoBIAAAgBAIAAQAEgANAFA4CAAgJAAAAgAAAQABqAAA=</HashCode>
+      <FileName>simulation_con.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimResult" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAACAAAAAAAAACAAAABAAAAAA=</HashCode>
+      <FileName>SimResult.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CFI_Vehicles_Inputs" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAEAAAAAAAAAAAAAAAAAAAAAAAQAAAAAg=</HashCode>
+      <FileName>CFI_Vehicles_Inputs.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ordinary_Vehicles_Inputs" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAEAAAAAAQAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Ordinary_Vehicles_Inputs.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="RoadType" Collapsed="true">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Com_use.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SignalControl" Collapsed="true">
+    <Position X="2.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Com_use.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SignalState" Collapsed="true">
+    <Position X="4" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAADAAAAA=</HashCode>
+      <FileName>Com_use.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

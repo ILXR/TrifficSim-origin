@@ -1,0 +1,265 @@
+2019/05/22 - 10:46:25 Ordinary Fixed period: 3600
+input: 293 102 775 229 308 94 994 251 
+sum: 3101
+effiency: 0.861389
+
+2019/05/22 - 10:47:11 Ordinary Adaptive period: 3600
+input: 293 102 775 229 308 94 994 251 
+sum: 3279
+effiency: 0.910833
+
+2019/05/22 - 10:47:58 CFI Fixed period: 3600
+input: 293 102 775 229 308 94 994 251 
+sum: 3247
+effiency: 0.901944
+
+2019/05/22 - 10:48:45 CFI Adaptive period: 3600
+input: 293 102 775 229 308 94 994 251 
+sum: 3144
+effiency: 0.873333
+
+2019/05/22 - 10:49:09 Ordinary Fixed period: 1800
+input: 183 100 731 259 149 131 708 134 
+sum: 1920
+effiency: 1.06667
+
+2019/05/22 - 10:49:33 Ordinary Adaptive period: 1800
+input: 183 100 731 259 149 131 708 134 
+sum: 1962
+effiency: 1.09
+
+2019/05/22 - 10:49:58 CFI Fixed period: 1800
+input: 183 100 731 259 149 131 708 134 
+sum: 1901
+effiency: 1.05611
+
+2019/05/22 - 10:50:23 CFI Adaptive period: 1800
+input: 183 100 731 259 149 131 708 134 
+sum: 2230
+effiency: 1.23889
+
+2019/05/22 - 10:50:47 Ordinary Fixed period: 1800
+input: 357 67 531 197 300 216 753 165 
+sum: 2309
+effiency: 1.28278
+
+2019/05/22 - 10:51:12 Ordinary Adaptive period: 1800
+input: 357 67 531 197 300 216 753 165 
+sum: 2246
+effiency: 1.24778
+
+2019/05/22 - 10:51:36 CFI Fixed period: 1800
+input: 357 67 531 197 300 216 753 165 
+sum: 2127
+effiency: 1.18167
+
+2019/05/22 - 10:52:01 CFI Adaptive period: 1800
+input: 357 67 531 197 300 216 753 165 
+sum: 2388
+effiency: 1.32667
+
+2019/05/22 - 23:34:00 Ordinary Fixed period: 3600
+input: 293 102 775 229 308 94 994 251 
+sum: 2905
+effiency: 0.806944
+
+2019/05/22 - 23:35:51 Ordinary Adaptive period: 3600
+input: 293 102 775 229 308 94 994 251 
+sum: 3042
+effiency: 0.845
+
+2019/05/22 - 23:37:37 CFI Fixed period: 3600
+input: 293 102 775 229 308 94 994 251 
+sum: 2680
+effiency: 0.744444
+
+2019/05/22 - 23:39:25 CFI Adaptive period: 3600
+input: 293 102 775 229 308 94 994 251 
+sum: 3133
+effiency: 0.870278
+
+2019/05/22 - 23:41:22 Ordinary Fixed period: 3600
+input: 183 100 731 259 149 131 708 134 
+sum: 2552
+effiency: 0.708889
+
+2019/05/22 - 23:43:16 Ordinary Adaptive period: 3600
+input: 183 100 731 259 149 131 708 134 
+sum: 2572
+effiency: 0.714444
+
+2019/05/22 - 23:45:11 CFI Fixed period: 3600
+input: 183 100 731 259 149 131 708 134 
+sum: 2508
+effiency: 0.696667
+
+2019/05/22 - 23:46:59 CFI Adaptive period: 3600
+input: 183 100 731 259 149 131 708 134 
+sum: 2482
+effiency: 0.689444
+
+2019/05/22 - 23:48:51 Ordinary Fixed period: 3600
+input: 357 67 531 197 300 216 753 165 
+sum: 2752
+effiency: 0.764444
+
+2019/05/22 - 23:50:42 Ordinary Adaptive period: 3600
+input: 357 67 531 197 300 216 753 165 
+sum: 2778
+effiency: 0.771667
+
+2019/05/22 - 23:52:33 CFI Fixed period: 3600
+input: 357 67 531 197 300 216 753 165 
+sum: 2704
+effiency: 0.751111
+
+2019/05/23 - 00:01:22 CFI Adaptive period: 3600
+input: 357 67 531 197 300 216 753 165 
+sum: 2649
+effiency: 0.735833
+
+2019/05/23 - 00:04:39 Ordinary Fixed period: 3600
+input: 293 102 775 229 308 94 994 251 
+sum: 2894
+effiency: 0.803889
+
+2019/05/23 - 00:06:09 Ordinary Adaptive period: 3600
+input: 293 102 775 229 308 94 994 251 
+sum: 3221
+effiency: 0.894722
+
+2019/05/23 - 00:07:34 CFI Fixed period: 3600
+input: 293 102 775 229 308 94 994 251 
+sum: 2685
+effiency: 0.745833
+
+2019/05/23 - 00:09:07 CFI Adaptive period: 3600
+input: 293 102 775 229 308 94 994 251 
+sum: 3167
+effiency: 0.879722
+
+2019/05/23 - 00:10:44 Ordinary Fixed period: 3600
+input: 183 100 731 259 149 131 708 134 
+sum: 2557
+effiency: 0.710278
+
+2019/05/23 - 00:12:17 Ordinary Adaptive period: 3600
+input: 183 100 731 259 149 131 708 134 
+sum: 2621
+effiency: 0.728056
+
+2019/05/23 - 00:13:49 CFI Fixed period: 3600
+input: 183 100 731 259 149 131 708 134 
+sum: 2512
+effiency: 0.697778
+
+2019/05/23 - 00:15:26 CFI Adaptive period: 3600
+input: 183 100 731 259 149 131 708 134 
+sum: 2461
+effiency: 0.683611
+
+2019/05/23 - 00:17:09 Ordinary Fixed period: 3600
+input: 357 67 531 197 300 216 753 165 
+sum: 2665
+effiency: 0.740278
+
+2019/05/23 - 00:18:57 Ordinary Adaptive period: 3600
+input: 357 67 531 197 300 216 753 165 
+sum: 2822
+effiency: 0.783889
+
+2019/05/23 - 00:20:40 CFI Fixed period: 3600
+input: 357 67 531 197 300 216 753 165 
+sum: 2713
+effiency: 0.753611
+
+2019/05/23 - 00:22:25 CFI Adaptive period: 3600
+input: 357 67 531 197 300 216 753 165 
+sum: 2659
+effiency: 0.738611
+
+2019/05/23 - 00:35:21 Ordinary Fixed period: 3600
+input: 293 102 775 229 308 94 994 251 
+sum: 2541
+effiency: 0.705833
+
+2019/05/23 - 00:36:55 Ordinary Adaptive period: 3600
+input: 293 102 775 229 308 94 994 251 
+sum: 2993
+effiency: 0.831389
+
+2019/05/23 - 00:38:25 CFI Fixed period: 3600
+input: 293 102 775 229 308 94 994 251 
+sum: 2111
+effiency: 0.586389
+
+2019/05/25 - 15:35:11 Ordinary Fixed period: 1800
+input: 257 1275 716 159 1792 475 655 206 
+sum: 1748
+effiency: 0.971111
+
+2019/05/25 - 15:58:54 Ordinary Fixed period: 1800
+input: 1311 698 25 205 196 1737 1418 104 
+sum: 1630
+effiency: 0.905556
+
+2019/05/25 - 16:50:25 Ordinary Fixed period: 3600
+input: 293 102 775 229 308 94 994 251 
+sum: 2204
+effiency: 0.612222
+
+2019/05/25 - 16:51:42 Ordinary Adaptive period: 3600
+input: 293 102 775 229 308 94 994 251 
+sum: 2617
+effiency: 0.726944
+
+2019/05/25 - 16:52:57 CFI Fixed period: 3600
+input: 293 102 775 229 308 94 994 251 
+sum: 2393
+effiency: 0.664722
+
+2019/05/25 - 16:54:12 CFI Adaptive period: 3600
+input: 293 102 775 229 308 94 994 251 
+sum: 2738
+effiency: 0.760556
+
+2019/05/25 - 16:57:02 Ordinary Fixed period: 3600
+input: 293 102 775 229 308 94 994 251 
+sum: 2856
+effiency: 0.793333
+
+2019/05/25 - 16:58:12 Ordinary Adaptive period: 3600
+input: 293 102 775 229 308 94 994 251 
+sum: 3212
+effiency: 0.892222
+
+2019/05/25 - 16:59:23 CFI Fixed period: 3600
+input: 293 102 775 229 308 94 994 251 
+sum: 2974
+effiency: 0.826111
+
+2019/05/25 - 17:00:34 CFI Adaptive period: 3600
+input: 293 102 775 229 308 94 994 251 
+sum: 3187
+effiency: 0.885278
+
+2019/05/25 - 17:01:45 Ordinary Fixed period: 3600
+input: 183 100 731 259 149 131 708 134 
+sum: 2430
+effiency: 0.675
+
+2019/05/25 - 17:02:54 Ordinary Adaptive period: 3600
+input: 183 100 731 259 149 131 708 134 
+sum: 2556
+effiency: 0.71
+
+2019/05/25 - 17:03:54 CFI Fixed period: 3600
+input: 183 100 731 259 149 131 708 134 
+sum: 2529
+effiency: 0.7025
+
+2019/05/25 - 17:04:56 CFI Adaptive period: 3600
+input: 183 100 731 259 149 131 708 134 
+sum: 2509
+effiency: 0.696944
+
